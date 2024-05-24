@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeTFlix</title>
+    <link rel="icon" type="image/x-icon" href="/assets/JeTFlix Favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="playwrapper">
+    <nav>
+        <div class="nav-left">
+            <a href="homepage.html"><img src="/assets/JeTFlix Logo.png" alt="Logo"></a>
+        </div>
+        <div class="nav-right">
+            <a href="movies.html">Movies</a>
+            <a href="news&popular.html">News & Popular</a>          
+        </div>
+        <div class="ham">
+            <input type="button" id="buttonHam" value="&#9776;" onclick="show()">
+        </div>
+    </nav>
+    <div class="hamburger">
+        <div id="menuham">
+            <div id="menuNavbar">
+                <a href="movies.html">Movie</a>
+            </div>
+            <div id="menuNavbar">
+                <br>
+                <a href="news&popular.html">News & Popular</a>
+            </div>
+        </div>
+    </div>
+    <h1 class="judul">The Last of Us (Episode 1)</h1>
+    <div class="playmovie">
+        <video controls>
+            <source src="assets/Video.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <footer>
+        <div class="left-content">
+            <img src="/assets/JeTFlix Logo.png" alt="">
+            <p>© 2023 JeTFlix. All rights reserved. </p>
+        </div>
+        <div class="right-content">
+            <a href="https://www.instagram.com/"><img src="/assets/Instagram.png" alt=""></a>
+            <a href="https://www.twitter.com/"><img src="/assets/Twitter.png" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="/assets/Facebook.png" class="face" alt=""></a>
+        </div>
+    </footer>
+    <script src="script3.js" defer></script>
+</body>
+</html>

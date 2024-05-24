@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeTFlix</title>
+    <link rel="icon" type="image/x-icon" href="/assets/JeTFlix Favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <a href="homepage.html"><img src="/assets/JeTFlix Logo.png" alt="Logo"></a>
+        </div>
+        <div class="nav-right">
+            <a href="movies.html">Movies</a>
+            <a href="news&popular.html">News & Popular</a>       
+        </div>
+        <div class="ham">
+            <input type="button" id="buttonHam" value="&#9776;" onclick="show()">
+        </div>
+    </nav>
+    <div class="hamburger">
+        <div id="menuham">
+            <div id="menuNavbar">
+                <a href="movies.html">Movie</a>
+            </div>
+            <div id="menuNavbar">
+                <br>
+                <a href="news&popular.html">News & Popular</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-signin">
+        <div class="wrapperbox-signin">
+            <h1>Login</h1>
+            <p>Welcome back!</p>
+            <div class="wrapperbox-form">
+                    <form action="/movies.html" id="form">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Type your name"><br>
+                        <div id="nameValidation"></div><br>
+
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" name="password" placeholder="Type your password"><br>
+                        <div id="passwordValidation"></div><br>
+                    
+                        <button type="submit" class="submit">Login</button>
+
+                    </form>
+                    <a href="signup.html" class="forget">Forget your password?</a>
+                    <p>Don't have an account yet?</p>
+                    <a href="signup.html"><button>Create new account</button></a>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div class="left-content">
+            <img src="/assets/JeTFlix Logo.png" alt="">
+            <p>© 2023 JeTFlix. All rights reserved. </p>
+        </div>
+        <div class="right-content">
+            <a href="https://www.instagram.com/"><img src="/assets/Instagram.png" alt=""></a>
+            <a href="https://www.twitter.com/"><img src="/assets/Twitter.png" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="/assets/Facebook.png" class="face" alt=""></a>
+        </div>
+    </footer>
+    <script src="script2.js"></script>
+    <script src="script3.js" defer></script>
+</body>
+</html>

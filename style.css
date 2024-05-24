@@ -1,0 +1,1437 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+div.background1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)), url(/assets/Avengers.jpg);
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #222225;
+    padding-bottom: 10px;
+
+}
+
+nav div.nav-left{
+    margin-top: 10px;
+}
+
+nav div.nav-right{
+    margin-top: 10px;
+}
+
+nav div.nav-left img{
+    width: 200px;
+    /* margin-left: 10px; */
+}
+nav div.nav-right a{
+    /* margin-right: 10px; */
+    text-decoration: none;
+    color: #01CFCF;
+    font-weight: bold;
+    font-size: 24px;
+    transition: transform 0.3s;
+}
+
+nav div.nav-right a:hover{
+    color: #BBFFFF;
+    transform: translateY(-3px);
+}
+
+nav div.nav-right button{
+    border: none;
+    background-color: #01CFCF;
+    color: #2D2D45;
+    font-weight: bold;
+    padding: 6px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+    border-radius: 15px;
+    transition: transform 0.3s;
+
+}
+
+nav div.nav-right button:hover{
+    background-color: #BBFFFF;
+    color: #01CFCF;
+    transform: translateY(-3px);
+}
+
+div.background1 div.center-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.background1 div.wrapper-centercontent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+div.background1 div.wrapper-centercontent div h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #01CFCF;
+    font-size: 48px;
+}
+
+div.background1 div.wrapper-centercontent div p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #BBFFFF;
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+
+div.background1 div.wrapper-centercontent div button{
+    border: none;
+    background-color: #01CFCF;
+    color: #2D2D45;
+    font-weight: bold;
+    padding: 6px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: transform 0.3s;
+
+}
+div.background1 div.wrapper-centercontent div button:hover{
+    background-color: #BBFFFF;
+    color: #01CFCF;
+    transform: translateY(-3px);
+}
+
+div.background2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85),rgba(0, 0, 0, 0.85)), url(/assets/Disney\ Movies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+div.background2 div.top-content h2{
+    margin-top: 2rem;
+    color: #01CFCF;
+    font-size: 48px;
+}
+
+div.background2 div.top-content p{
+    color:#BBFFFF;
+    font-size: 48px;
+}
+
+div.background2 div.center-content h1{
+    color:#01CFCF;
+    font-size: 60px;
+}
+
+footer{
+    height: 10vh;
+    background-color: #1D1D20;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div.left-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+footer div.left-content img{
+    width: 100px;
+    margin-left: 10px;
+}
+
+footer div.left-content p{
+    color: #BBFFFF;
+    margin-left: 20px;
+}
+
+footer div.right-content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer div.right-content a img{
+    width: 30%;
+    margin-right: -3px;
+}
+
+div.wrapper-signin{
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #252525;
+}
+
+div.wrapper-signin div.wrapperbox-signin{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222225;
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+div.wrapper-signin div.wrapperbox-signin h1{
+    color: #01CFCF;
+}
+
+div.wrapper-signin div.wrapperbox-signin p{
+    color:#BBFFFF;
+}
+
+div.wrapper-signin div.wrapperbox-signin label{
+    color:#01CFCF;
+    font-weight: bold;
+}
+
+div.wrapper-signin div.wrapperbox-signin input{
+    margin-top: 10px;
+    color:#BBFFFF;
+    background-color:#252525;
+    border-radius: 30px;
+    border: none;
+    padding: 1rem;
+}
+
+div.wrapper-signin div.wrapperbox-signin button{
+    border: none;
+    background-color: #01CFCF;
+    color: #2D2D45;
+    font-weight: bold;
+    padding: 6px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 100%;
+    text-decoration: none;
+}
+
+div.wrapper-signin div.wrapperbox-signin button{
+    text-decoration: none;
+    color:#222225;
+    font-size: 24px;
+}
+
+div.wrapper-signin div.wrapperbox-signin div.wrapperbox-form input{
+    width: 96%;
+}
+
+div.wrapper-signin div.wrapperbox-signin div.wrapperbox-form div.divgender input{
+    width: 2%;
+}
+
+div.wrapper-signin div.wrapperbox-signin div.wrapperbox-form div.divgender label{
+    color: #BBFFFF;
+    font-weight: 200;
+}
+
+div.wrapper-signin div.wrapperbox-signin div.wrapperbox-form div.divgender .nocolorgender{
+    color: #01CFCF;
+    font-weight: bold;
+}
+
+div.wrapper-signin div.wrapperbox-signin div.wrapperbox-form div.check input{
+    width: 2%;
+}
+
+div.wrapper-signin div.wrapperbox-signin div.wrapperbox-form div.check label{
+    color: #BBFFFF;
+    font-weight: 200;
+}
+
+input[type="date"]{
+    color: rgb(7, 224, 244);
+    opacity: 1;
+    color-scheme: dark;
+}
+
+::placeholder{
+    color:#BBFFFF
+}
+
+div.wrapperbox-form p{
+    margin-top: 8rem;
+    color: #BBFFFF;
+    text-align: center;
+}
+
+div.wrapperbox-form a{
+    color: #BBFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+div.newspopularsection{
+    background-color: #252525;
+}
+div.newspopularsection h1{
+    color: #01CFCF;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+div.newspopularsection div.topwrapper{
+    background-color: #222225;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+div.newspopularsection div.topwrapper1{
+    background-color: #222225;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    padding: 1rem;
+    gap: 2rem;
+    justify-content: space-around;
+}
+
+
+div.newspopularsection div.topwrapper div.left-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+
+div.newspopularsection div.topwrapper div.left-wrapper h2{
+    color: #01CFCF;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+div.newspopularsection div.topwrapper div.left-wrapper h4{
+    color:#BBFFFF;
+    font-size: 20px;
+}
+
+div.newspopularsection div.topwrapper div.left-wrapper p{
+    color:#BBFFFF;
+    font-size: 16px;
+}
+
+div.newspopularsection div.topwrapper div.left-wrapper a{
+    color:#BBFFFF;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+div.topwrapper div.right-wrapper img{
+    width: 400px;
+}
+
+div.topwrapper1 div.right-wrapper img{
+    width: 400px;
+}
+div.newspopularsection div.topwrapper div.left-wrapper div.iconnews{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playsize img{
+    width: 40px;
+}
+
+div.iconnews{
+    gap: 1rem;
+}
+
+div.newspopularsection div.topwrapper1{
+    padding-bottom: 5rem;
+}
+
+div.newspopularsection div.topwrapper1 div.left-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+div.newspopularsection div.topwrapper1 div.left-wrapper h2{
+    color: #01CFCF;
+    font-size: 30px;
+    margin-bottom: 3rem;
+}
+
+div.newspopularsection div.topwrapper1 div.left-wrapper h4{
+    color:#BBFFFF;
+    font-size: 20px;
+}
+
+div.newspopularsection div.topwrapper1 div.left-wrapper p{
+    color:#BBFFFF;
+    font-size: 16px;
+}
+
+div.right-wrapper img{
+    width: 35rem;
+}
+
+div.newspopularsection div.topwrapper1 div.left-wrapper a{
+    color:#BBFFFF;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+div.newspopularsection div.topwrapper1 div.left-wrapper div.iconnews{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.background3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),#222225), url(assets/The\ Last\ of\ Us\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    height: 80vh;
+    justify-content: flex-start;
+    align-items: end;
+    color: #222225;
+}
+
+div.background3 nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.background3 nav div.nav-left{
+    margin-top: 10px;
+}
+
+div.background3 nav div.nav-right{
+    margin-top: 10px;
+}
+
+div.background3 nav div.nav-right a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: #01CFCF;
+    font-weight: bold;
+    font-size: 24px;
+    transition: transform 0.3s;
+
+}
+
+div.background3 nav div.nav-right a:hover{
+    color: #BBFFFF;
+    transform: translateY(-3px);
+}
+
+div.background3 div.movies1wrapper div.movieswrapper{
+    padding-left: 2rem;
+}
+div.background3 div.movies1wrapper div.movieswrapper h1{
+    color: #01CFCF;
+    font-size: 72px;
+    margin-bottom: 1rem;
+}
+
+div.background3 div.movies1wrapper div.movieswrapper p{
+    color:#BBFFFF;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+div.background3 div.movies1wrapper div.movieswrapper a{
+    margin-top: 1rem;
+}
+
+div.background3 div.movies1wrapper div.movieswrapper a button{
+    border: none;
+    background-color: #01CFCF;
+    color: #2D2D45;
+    font-weight: bold;
+    padding: 6px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+div.movies{
+    background-color: #252525;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.movies h2{
+    margin-bottom: 1rem;
+    color: #01CFCF;
+}
+
+div.movies div.wrappermovies{
+    display: flex;
+    gap: 1rem;
+}
+
+div.movies div.wrappermovies img{
+    width: 19.2%;
+    margin-bottom: 5rem;
+}
+
+div.detail-wrapper{
+    display: flex;
+    background-color: #222225;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    padding: 1rem;
+
+}
+
+div.detail-right h1{
+    margin-bottom: 0.5rem;
+    font-size: 50px;
+}
+div.detail-right h3{
+    margin-top: 1rem;
+}
+
+div.creator, div.cast{
+    margin-top: 1rem;
+}
+body.detail{
+    background-color: #252525;
+}
+
+div.detail-wrapper div.image img{
+    width: 360px;
+    margin-right: 1rem;
+}
+
+div.episodes{
+    display: flex;
+    flex-direction: column;
+    background-color: #222225;
+    justify-content: space-between;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 5rem;
+    padding: 1rem;
+}
+
+div.creator{
+    align-items: center;
+    display: flex;
+    margin-left: 1rem;
+    width: 93%;
+    gap: 1rem;
+}
+
+div.allcast{
+    gap: 1rem;
+    margin-left: 1rem;
+}
+
+div.cast{
+    align-items: center;
+    gap: 1rem;
+}
+
+div.detail-right h1, div.detail-right h3{
+    color: #01CFCF;
+}
+div.creator img{
+    width: 8%;
+}
+
+div.cast img{
+    width: 32%;
+}
+
+div.detail-right p{
+    color:#BBFFFF;
+    font-size: 13.5px;
+}
+
+div.creator, div.cast{
+    display: flex;
+    flex-direction: row;
+}
+
+div.allcast{
+    display: flex;
+    flex-direction: row;
+}
+
+div.noepisodes{
+    display: flex;
+    flex-direction: row;
+    background-color: #252525;
+    border-radius: 30px;
+    margin-bottom: 3rem;
+    justify-content: space-between;
+}
+
+div.left-episode{
+    display: flex;
+    flex-direction: column;
+}
+
+
+div.right-episode{
+    display: flex;
+    flex-direction: column;
+}
+
+div.detail-wrapper a button{
+    border: none;
+    background-color: #01CFCF;
+    color: #2D2D45;
+    font-weight: bold;
+    padding: 8px 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+div.episodes h2{
+    color: #01CFCF;
+    margin-bottom: 1rem;
+}
+
+div.imageepisode img{
+    width: 200px;
+    margin-right: 1rem;
+}
+
+div.left-episode h3{
+    color: #01CFCF;
+}
+
+div.left-episode p{
+    color: #BBFFFF;
+}
+
+div.right-episode div a{
+    color:#01CFCF;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+div.right-episode div.iconnews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.right-episode{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-align: center;
+}
+
+div.left-episode{
+    display: flex;
+    justify-content: center;
+}
+
+body.playwrapper{
+    background-color: #252525;
+}
+
+div.playmovie{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    padding: 1.1rem;
+}
+
+div.playmovie video{
+    border-radius: 30px;
+    width: 50%;
+    height: auto;
+}
+
+h1.judul{
+    color: #01CFCF;
+    text-align: center;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.nav-right a {
+    margin-right: 10px;
+}
+
+#menuham{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+}
+
+nav input{
+    display: none;
+}
+
+.ham{
+    display: none;
+}
+
+div#nameValidation, div#passwordValidation, div#cpasswordValidation, div#genderValidation, div#dobValidation, div#tcValidation{
+    color: white;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 768px){
+    .ham{
+        display: block;
+    }
+
+    div.nav-right{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    #buttonHam{
+        display: block;
+        cursor: pointer;
+        padding: 1px;
+        width: 40px;
+        height: 5%;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 30px;
+        margin-top: 1.5rem;
+        border: none;
+        background-color:#01CFCF;
+    }
+
+    #menuNavbar a{
+        color: #01CFCF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #menuham{
+        background-color:#1D1D20;
+        padding: 1rem;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+        width: 95.75vw;
+    }
+
+    .background1{
+        background-position: center;
+    }
+
+    div.background1 div.wrapper-centercontent div h2{
+        font-size: 24px;
+    }
+    
+    div.background1 div.wrapper-centercontent div p{
+        font-size: 12px;
+    }
+
+    div.background1 div.wrapper-centercontent div a button{
+        font-size: 24px;
+    }
+
+    div.background2 div.top-content h2{
+        font-size: 24px;
+    }
+    
+    div.background2 div.top-content p{
+        font-size: 24px;
+    }
+    
+    div.background2 div.center-content h1{
+        font-size: 30px;
+    }
+    
+    nav div.nav-left img{
+        width: 150px;
+    }
+
+    nav div.nav-right a{
+        font-size: 12px;
+    }
+
+    nav div.nav-right button{
+        padding: 3px 20px;
+        font-size: 12px;
+    }
+
+    footer div p{
+        font-size: 12px;
+    }
+
+    div.right-wrapper img{
+        width: 100%;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper h2{
+        font-size: 24px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper h4{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper p{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper a{
+        font-size: 12px;
+    }
+
+    div.newspopularsection div.topwrapper1 div.left-wrapper h2{
+        font-size: 24px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper h4{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper p{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper a{
+        font-size: 12px;
+    }
+    
+
+    footer div.left-content img{
+        width: 50px;
+    }
+
+    footer div.right-content a img{
+        width: 12px;
+        margin-left: 2rem;
+    }
+
+    footer div.right-content a img.face{
+        width: 5px;
+        margin-left: 2rem;
+    }
+
+    div.newspopularsection h1{
+        font-size: 24px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper h2{
+        font-size: 20px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper h4{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper p{
+        font-size: 10px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper a{
+        font-size: 10px;
+    }
+    
+    .playsize img{
+        width: 20px;
+    }
+
+    div.iconnews a img{
+        width: 20px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper h2{
+        font-size: 20px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper h4{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper p{
+        font-size: 10px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper a{
+        font-size: 10px;
+    }
+
+    div.newspopularsection div.topwrapper{
+        width: 300px;
+    }
+
+    div.newspopularsection div.topwrapper1{
+        width: 300px;
+    }
+
+    div.topwrapper div.right-wrapper img{
+        width: 300px;
+    }
+    
+    div.topwrapper1 div.right-wrapper img{
+        width: 300px;
+    }
+
+    div.background3 div.movies1wrapper div.movieswrapper h1{
+        font-size: 24px;
+    }
+    
+    div.background3 div.movies1wrapper div.movieswrapper p{
+        font-size: 12px;
+    }
+
+    div.background3 div.movies1wrapper div.movieswrapper a button{
+        font-size: 12px;
+    }
+
+    div.movies h2{
+        font-size: 12px;
+    }
+
+    div.movies{
+        padding: 1rem;
+    }
+
+    div.movies div.wrappermovies img{
+        width: 17%;
+    }
+
+    h1.judul{
+        font-size: 20px;
+    }
+
+    div.detail-right h1{
+        font-size: 20px;
+    }
+
+    div.detail-right h3{
+        font-size: 12px;
+    }
+
+    div.detail-right p{
+        font-size: 5px;
+    }
+
+    div.detail-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.detail-wrapper a button{
+        font-size: 12px;
+    }
+
+    div.detail-wrapper div.image img{
+        width: 150px;
+    }
+
+    div.detail-wrapper div.image{
+        text-align: center;
+    }
+    
+    div.creator img{
+        width: 5%;
+    }
+    
+    .forget{
+        font-size: 8px;
+    }
+
+    div.cast img{
+        width: 25%;
+    }
+    
+    div.detail-right p{
+        color:#BBFFFF;
+        font-size: 10px;
+    }
+    
+    div.noepisodes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    div.left-episode{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    div.right-episode{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div.detail-wrapper a button{
+        font-size: 10px;
+        margin-top: 1rem;
+    }
+    
+    div.episodes h2{
+        font-size: 12px;
+    }
+    
+    
+    div.left-episode h3{
+        font-size: 12px;
+    }
+    
+    div.left-episode p{
+        font-size: 10px;
+    }
+    
+    div.right-episode div a{
+        color:#01CFCF;
+    }
+    
+    
+    div.wrapper-signin div.wrapperbox-signin h1{
+        font-size: 20px;
+    }
+    
+    div.wrapper-signin div.wrapperbox-signin p{
+        font-size: 12px;
+    }
+    
+    div.wrapper-signin div.wrapperbox-signin label{
+        font-size: 12px;
+    }
+    
+    div.wrapper-signin div.wrapperbox-signin input{
+        font-size: 12px;
+    }
+    
+    div.wrapper-signin div.wrapperbox-signin button{
+        font-size: 12px;
+    }
+
+    div.newspopularsection div.topwrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.newspopularsection div.topwrapper1{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .ham{
+        display: block;
+    }
+
+    div.nav-right{
+        display: none;
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    #buttonHam{
+        display: block;
+        cursor: pointer;
+        padding: 1px;
+        width: 40px;
+        height: 5%;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 30px;
+        margin-top: 1.5rem;
+        border: none;
+        background-color:#01CFCF;
+    }
+
+    #menuNavbar a{
+        color: #01CFCF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    #menuham{
+        background-color:#1D1D20;
+        padding: 1rem;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        justify-content: center;
+        width: 95.75vw;
+    }
+
+    .background1{
+        background-position: center;
+    }
+
+    div.background1 div.wrapper-centercontent div h2{
+        font-size: 12px;
+    }
+    
+    div.background1 div.wrapper-centercontent div p{
+        font-size: 8px;
+    }
+
+    div.background1 div.wrapper-centercontent div a button{
+        font-size: 12px;
+    }
+
+    div.background2 div.top-content h2{
+        font-size: 12px;
+    }
+    
+    div.background2 div.top-content p{
+        font-size: 12px;
+    }
+    
+    div.background2 div.center-content h1{
+        font-size: 24px;
+    }
+    
+    nav div.nav-left img{
+        width: 120px;
+    }
+
+    nav div.nav-right a{
+        font-size: 8px;
+    }
+
+    nav div.nav-right button{
+        padding: 3px 20px;
+        font-size: 8px;
+    }
+
+    footer div p{
+        font-size: 8px;
+    }
+
+    div.right-wrapper img{
+        width: 100%;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper h2{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper h4{
+        font-size: 8px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper p{
+        font-size: 8px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper a{
+        font-size: 8px;
+    }
+
+    div.newspopularsection div.topwrapper1 div.left-wrapper h2{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper h4{
+        font-size: 8px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper p{
+        font-size: 8px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper a{
+        font-size: 8px;
+    }
+    
+    div.newspopularsection div.topwrapper{
+        width: 200px;
+    }
+
+    div.newspopularsection div.topwrapper1{
+        width: 200px;
+    }
+
+    div.topwrapper div.right-wrapper img{
+        width: 200px;
+    }
+    
+    div.topwrapper1 div.right-wrapper img{
+        width: 200px;
+    }
+
+    footer div.left-content img{
+        width: 30px;
+    }
+
+    footer div.right-content a img{
+        width: 8px;
+        margin-left: 2rem;
+    }
+
+    footer div.right-content a img.face{
+        width: 5px;
+        margin-left: 2rem;
+    }
+
+    div.newspopularsection h1{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper h2{
+        font-size: 12px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper h4{
+        font-size: 8px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper p{
+        font-size: 8px;
+    }
+    
+    div.newspopularsection div.topwrapper div.left-wrapper a{
+        font-size: 8px;
+    }
+    
+    .playsize img{
+        width: 18px;
+    }
+
+    div.iconnews a img{
+        width: 18px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper h2{
+        font-size: 18px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper h4{
+        font-size: 8px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper p{
+        font-size: 8px;
+    }
+    
+    div.newspopularsection div.topwrapper1 div.left-wrapper a{
+        font-size: 8px;
+    }
+    
+    div.topwrapper div.right-wrapper img{
+        width: 80px;
+    }
+    
+    div.topwrapper1 div.right-wrapper img{
+        width: 80px;
+    }
+
+    div.background3 div.movies1wrapper div.movieswrapper h1{
+        font-size: 24px;
+    }
+    
+    div.background3 div.movies1wrapper div.movieswrapper p{
+        font-size: 10px;
+    }
+
+    div.background3 div.movies1wrapper div.movieswrapper a button{
+        font-size: 10px;
+    }
+
+    div.movies h2{
+        font-size: 8px;
+    }
+
+    div.movies{
+        padding: 1rem;
+    }
+
+    div.movies div.wrappermovies img{
+        width: 17%;
+    }
+
+    h1.judul{
+        font-size: 12px;
+    }
+
+    div.detail-right h1{
+        font-size: 12px;
+    }
+
+    div.detail-right h3{
+        font-size: 8px;
+    }
+
+    div.detail-right p{
+        font-size: 5px;
+    }
+
+    div.detail-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.detail-wrapper a button{
+        font-size: 5px;
+    }
+
+    div.detail-wrapper div.image img{
+        width: 120px;
+    }
+
+    div.detail-wrapper div.image{
+        text-align: center;
+    }
+    
+    div.creator img{
+        width: 5%;
+    }
+    
+    div.cast img{
+        width: 25%;
+    }
+    
+    div.detail-right p{
+        font-size: 8px;
+    }
+
+    div.detail-wrapper a button{
+        font-size: 8px;
+        margin-top: 1rem;
+    }
+    
+    div.episodes h2{
+        font-size: 10px;
+    }
+    
+    div.left-episode h3{
+        font-size: 10px;
+    }
+    
+    div.left-episode p{
+        font-size: 8px;
+    }
+    
+    div.right-episode div a{
+        color:#01CFCF;
+    }
+
+    div.wrapper-signin div.wrapperbox-signin h1{
+        font-size: 12px;
+    }
+    
+    div.wrapper-signin div.wrapperbox-signin p{
+        font-size: 8px;
+    }
+    
+    div.wrapper-signin div.wrapperbox-signin label{
+        font-size: 8px;
+    }
+    
+    div.wrapper-signin div.wrapperbox-signin input{
+        font-size: 8px;
+    }
+    
+    div.wrapper-signin div.wrapperbox-signin button{
+        font-size: 8px;
+    }
+
+    div.newspopularsection div.topwrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.newspopularsection div.topwrapper1{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeTFlix</title>
+    <link rel="icon" type="image/x-icon" href="/assets/JeTFlix Favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="register">
+    <nav>
+        <div class="nav-left">
+            <a href="homepage.html"><img src="/assets/JeTFlix Logo.png" alt="Logo"></a>
+        </div>
+        <div class="nav-right">
+            <a href="movies.html">Movies</a>
+            <a href="news&popular.html">News & Popular</a>      
+        </div>
+        <div class="ham">
+            <input type="button" id="buttonHam" value="&#9776;" onclick="show()">
+        </div>
+    </nav>
+    <div class="hamburger">
+        <div id="menuham">
+            <div id="menuNavbar">
+                <a href="movies.html">Movie</a>
+            </div>
+            <div id="menuNavbar">
+                <br>
+                <a href="news&popular.html">News & Popular</a>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-signin">
+        <div class="wrapperbox-signin">
+            <h1>Create your first account</h1>
+            <p>It's easy and free</p>
+            <div class="wrapperbox-form">
+                    <form action="/movies.html" id="form">
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name" name="name" placeholder="Type your name"><br>
+                        <div id="nameValidation"></div><br>
+
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password" name="password" placeholder="Type your password"><br>
+                        <div id="passwordValidation"></div><br>
+
+                        <label for="cpassword">Confirm Password</label><br>
+                        <input type="password" id="cpassword" name="cpassword" placeholder="Type your password"><br>
+                        <div id="cpasswordValidation"></div><br>
+                        
+                        <div class="divgender">
+                            <label class="nocolorgender">Gender</label><br>
+                            <input type="radio" id="male" name="gender" value="Male">
+                            <label for="male">Male</label><br><br>
+                            <input type="radio" id="female" name="gender" value="Female">
+                            <label for="female">Female</label><br>
+                            <div id="genderValidation"></div><br>
+                        </div>
+
+                        <label for="dob">Date of Birth</label><br>
+                        <input type="date" id="dob" name="dob"><br>
+                        <div id="dobValidation"></div><br>
+
+                        <div class="check">
+                            <input type="checkbox" id="tc" name="tc">
+                            <label>By creating an account means you agree to the Terms and Conditions and our Privacy Policy</label><br>
+                            <div id="tcValidation"></div><br>
+                        </div>
+                    
+                        <button type="submit" class="submit">Register</button>
+                    </form>
+            </div>
+            
+        </div>
+        
+    </div>
+    <footer>
+        <div class="left-content">
+            <img src="/assets/JeTFlix Logo.png" alt="">
+            <p>© 2023 JeTFlix. All rights reserved. </p>
+        </div>
+        <div class="right-content">
+            <a href="https://www.instagram.com/"><img src="/assets/Instagram.png" alt=""></a>
+            <a href="https://www.twitter.com/"><img src="/assets/Twitter.png" alt=""></a>
+            <a href="https://www.facebook.com/"><img src="/assets/Facebook.png" class="face" alt=""></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="script3.js" defer></script>
+</body>
+</html>
